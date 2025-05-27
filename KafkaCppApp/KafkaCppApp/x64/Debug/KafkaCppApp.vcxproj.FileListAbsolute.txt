@@ -1,0 +1,1 @@
+C:\Users\mfurqan\source\repos\KafkaCppApp\KafkaCppApp\x64\Debug\KafkaCppApp.vcxproj.CopyComplete

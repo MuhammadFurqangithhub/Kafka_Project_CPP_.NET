@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kafka Web Interface</title>
+</head>
+<body>
+    <h2>Send Message to C++</h2>
+    <input type="text" id="msgInput" placeholder="Enter message" />
+    <button onclick="sendMessage()">Send</button>
+    <br><br>
+    <h2>Received Messages from C++</h2>
+    <div id="receivedMessages"></div>
+
+    <script>
+        // Function to send a message to Kafka
+        function sendMessage() {
+            const msg = document.getElementById("msgInput").value;
+            fetch('/api/kafka/send', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(msg)
+            }).then(res => alert("Message sent to Kafka!"));
+        }
+
+        // Poll every 3 seconds to fetch new messages
+        setInterval(() => {
+            fetch('/api/kafka/messages')
+                .then(res => res.json())
+                .then(data => {
+                    // Update the UI with received messages
+                    document.getElementById("receivedMessages").innerText = data.join("\n");
+                });
+        }, 3000);
+    </script>
+</body>
+</html>

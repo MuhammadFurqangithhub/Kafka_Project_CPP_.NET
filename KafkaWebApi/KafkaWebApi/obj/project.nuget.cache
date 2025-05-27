@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rdUG4CtYflYHNlenZM1f56jX8oMIZGnWhAG5FipXJYH4phE8W/Spmn/pF1ditUEBHC7b9i1Tif36HgTnr39U8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mfurqan\\source\\repos\\KafkaWebApi\\KafkaWebApi\\KafkaWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mfurqan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\mfurqan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mfurqan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\mfurqan\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\mfurqan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\mfurqan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\mfurqan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
