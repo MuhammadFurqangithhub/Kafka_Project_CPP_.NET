@@ -9,15 +9,13 @@ This project demonstrates **bidirectional communication** between a **C++ Consol
 
 ```
 KAFKA/
-├── cpp-kafka-client/           # C++ Console App
-│   ├── send.cpp                # Sends Kafka message
-│   ├── receive.cpp             # Consumes Kafka messages
-│   └── CMakeLists.txt / VS Solution
-├── dotnet-kafka-api/          # .NET Core Web API
-│   ├── Controllers/
-│   ├── Services/
-│   └── Program.cs / Startup.cs
-└── README.md
+├── KafkaCppApp/             # Visual Studio C++ Console App
+│   ├── KafkaCppApp.sln
+│   └── KafkaCppApp/         # Contains KafkaCppApp.cpp
+│
+├── KafkaWebAPI/             # .NET 6 Web API
+│   ├── KafkaWebAPI.csproj
+│   └── Controllers/
 ```
 
 ---
